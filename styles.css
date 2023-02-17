@@ -35,21 +35,24 @@
 .title {
   color: #172b4d;
   font-style: normal;
-  font-weight: 300px;
+  font-weight: 250px;
   flex-direction: column;
-  font-size: 450%;
+  font-size: 290%;
   margin-left: 1%;
-  margin-right: 4%;
+  margin-right: 44%;
   margin-top: 9%;
-  width: 400px;
+  display: block;
+  line-height: 95.2%;
 }
 
 .intro {
+  margin-top: 12%;
   margin-left: 3%;
   margin-right: 5%;
   color: #344563;
-  font-size: 200%;
+  font-size: 150%;
   font-weight: 400;
+  display: flex;
 }
 
 .lets-connect {
@@ -64,6 +67,7 @@
 }
 
 .all-body {
+  margin-top: 15%;
   padding-bottom: 10%;
   display: flex;
   flex-direction: column;
@@ -85,7 +89,7 @@
     90% 87%,
     88% 90%,
     12% 95%,
-    100% 6.5%,
+    100% 3.5%,
     55% 99%,
     50% 4%,
     100% 0.18%,
@@ -95,7 +99,7 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 375px) {
   body {
     background-color: white;
   }
