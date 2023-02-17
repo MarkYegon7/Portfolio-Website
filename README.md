@@ -97,7 +97,7 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] Add a login page
+- [ ] Add forms to the portfolio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
