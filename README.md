@@ -50,7 +50,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,flexbox
 
 > Describe between 1-3 key features of the application.
 
-- None for now
+- The site is responsive to different screen sizes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
