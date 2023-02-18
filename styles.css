@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+  margin-left: 7%;
+  align-items: center;
+}
+
+.logo {
+  height: 27px;
+  width: 130px;
+}
+
+.image-icon {
+  height: 55px;
+  width: 50px;
+  margin-top: 1%;
+  margin-right: 11%;
+  margin-bottom: 0;
+  color: #6070ff;
+}
+
+.title {
+  margin-right: 20%;
+  width: 327px;
+  height: 270px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.intro {
+  width: 327px;
+  height: 170px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 120%;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-right: 20%;
+}
+
+.lets-connect {
+  width: 150px;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 110%;
+  line-height: 24px;
+  color: #7f8cff;
+  display: flex;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social-buttons {
+  height: 90px;
+  justify-content: space-evenly;
+  margin-top: 4%;
+  margin-right: 100px;
+}
+
+.icons {
+  border-left: 100px;
+  margin-left: 1%;
+  margin-right: 4%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.all-body {
+  padding: 4%;
+}
+
+#body-cover {
+  border: 0;
+  background-image:
+    url('images/Ellipse\ 11.png'),
+    url('images/Ellipse\ 12.png'),
+    url('images/Ellipse\ 13.png'),
+    url('images/Ellipse\ 15.png'),
+    url('images/Ellipse\ 3.png'),
+    url('images/Ellipse\ 4.png'),
+    url('images/Ellipse\ 5.png'),
+    url('images/Rectangle\ 4.png'),
+    url('images/Rectangle\ 5.png'),
+    url('images/Rectangle\ 7.png');
+  background-position:
+    1% 0.1%,
+    90% 87%,
+    88% 90%,
+    12% 95%,
+    100% 6.5%,
+    55% 99%,
+    50% 7%,
+    100% 1%,
+    50% 101%,
+    52% 6%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url('images/header-background-mobile.png');
+    background-color: #e5e5e5;
+    height: 100vh;
+    background-size: cover;
+  }
+}
