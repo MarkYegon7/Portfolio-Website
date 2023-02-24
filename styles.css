@@ -3,12 +3,17 @@
   padding: 0;
 }
 
+body {
+  background-color: #E5E5E5;
+}
+
 .header-logo {
   display: flex;
   justify-content: space-between;
   margin-top: 7%;
-  margin-left: 7%;
+  margin-left: 0.1%;
   align-items: center;
+  background-image: url('images/header-background-mobile.svg');
 }
 
 .logo {
@@ -90,6 +95,7 @@
 
 .all-body {
   padding: 4%;
+  background-color: #E5E5E5;
 }
 
 #body-cover {
@@ -303,16 +309,20 @@ ul.description {
 
 .works {
   margin-top: 2.313rem;
-  height: 100vh;
   margin-bottom: 1.875rem;
   margin-left: 1rem;
+  border: 0.063rem solid rgb(209, 205, 205);
+  border-radius: 25px;
+  padding: 10px;
+  background-color: white;
 }
 
 .myself {
   margin-top: 6.25rem;
-  height: 100vh;
-  margin-bottom: 1.875rem;
+  height: 790px;
+  margin-bottom: 80px;
   margin-left: 1rem;
+  background-color: #fff;
 }
 
 .about {
@@ -373,7 +383,7 @@ ul.description {
 }
 
 .languages-1 {
-  margin-left: 3rem;
+  margin-left: 1rem;
   color: #000;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
@@ -381,28 +391,28 @@ ul.description {
 
 .language-icons {
   height: 12.5rem;
-  margin-left: 3rem;
+  margin-left: 0.5rem;
   list-style-type: none;
   text-align: center;
 }
 
 .button-1 {
   border-radius: 0.313rem;
-  width: 47vh;
+  width: 38vh;
   border: 0.063rem solid white;
   font-size: 1.125rem;
 }
 
 .button-2 {
   border-radius: 0.5rem;
-  width: 47vh;
+  width: 38vh;
   border: 0.063rem solid white;
   font-size: 0.938rem;
 }
 
 .button-3 {
   border-radius: 0.5rem;
-  width: 47vh;
+  width: 38vh;
   border: 0.063rem solid white;
   font-size: 0.938rem;
 }
