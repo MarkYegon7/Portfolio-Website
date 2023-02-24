@@ -467,13 +467,6 @@ ul.description {
   border-bottom: 0.063rem solid rgb(186, 183, 183);
 }
 
-/* .works-container {
-  width: 95%;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-} */
-
 .work-container {
   display: grid;
   grid-template-rows: 1fr;
@@ -482,11 +475,3 @@ ul.description {
   height: 100vh;
   row-gap: 200px;
 }
-
-/* @media screen and (max-width: 375px) {
-  body {
-    background-image: url('images/header-background-mobile.svg');
-    background-color: #e5e5e5;
-    height: 100vh;
-  }
-} */
