@@ -19,13 +19,13 @@
 
 # 📖 Portfolio Website <a name="about-project"></a>
 
-Portfolio Website is an activity created on day 3 of the first week to show the knowledge we have grasped
+Portfolio Website is an activity created on the first week to show the knowledge we have grasped
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The project is to determine the basic knowledge one has in git,HTML5,CSS,flexbox and Linters
+The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Grid,flexbox and Linters
 
 <details>
   <summary>Client</summary>
@@ -34,6 +34,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,flexbox
     <li>CSS</li>
     <li>Flexbox</li>
     <li>Figma</li>
+    <li>CSS Grid</li>
   </ul>
 </details>
 
@@ -73,8 +74,8 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 
 👤 **Mark Yegon**
 
-- GitHub: @MarkYegon7 (https://github.com/MarkYegon7)
-- Twitter: @Marksambai
+- GitHub: MarkYegon7 (https://github.com/MarkYegon7)
+- Twitter: Marksambai
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,6 +86,7 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 
 - [ ] Add forms to the portfolio
 - [ ] Be responsive to larger screens
+- [ ] Add contact page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,6 +109,7 @@ If you like this project feel free to give feedback email:markyegonk@gmail.com
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse and coding partners who have been of great help.
+Code reviewers were of great help
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
