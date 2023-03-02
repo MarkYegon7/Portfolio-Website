@@ -335,6 +335,7 @@ ul.description {
 .about-myself {
   background-color: #fff;
   border-radius: 0 70px 0 0;
+  padding-bottom: 2rem;
 }
 
 .myself {
@@ -468,6 +469,7 @@ ul.description {
   border: 1px solid #6070ff;
   border-radius: 100px 0 0 0;
   background-color: #6070ff;
+  margin-top: 2rem;
 }
 
 .form-1 {
@@ -511,7 +513,7 @@ ul.description {
 }
 
 .form-image {
-  padding-left: 8.75rem;
+  padding-left: 132px;
   position: absolute;
 }
 
