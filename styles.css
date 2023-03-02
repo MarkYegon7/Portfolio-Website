@@ -469,8 +469,9 @@ ul.description {
 }
 
 .form-1 {
-  padding: 70px 15px 70px 15px;
   display: flex;
+  flex-direction: column;
+  padding-left: 20px;
 }
 
 .Contact {
@@ -510,11 +511,10 @@ ul.description {
 
 .form-image {
   padding-left: 8.75rem;
-
+  position: absolute;
 }
 
 form {
-  position: absolute;
   margin-top: 20rem;
   display: flex;
   flex-direction: column;
@@ -559,6 +559,23 @@ button {
   font-size: 1.25rem;
 }
 
+button:hover {
+  background-color: greenyellow;
+  color: #fff;
+}
+
+button:active {
+  background-color: blue;
+  color: #fff;
+}
+
+button:disabled {
+  color: #aaa;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
 #name::placeholder {
   color: #172B4D;
   font-weight: 400;
@@ -578,4 +595,39 @@ button {
   font-weight: 400;
   font-size: 1.188rem;
   padding-left: 10px;
+}
+
+hr {
+  border: 1px solid #0d151e;
+  background-color: #0d151e;
+  width: 134px;
+  height: 2px;
+  border-radius: 10px;
+  align-self: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 8px;
+  width: 327px;
+  height: 170px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+textarea::placeholder {
+  display: flex;
+  font-family: 'Poppins', system-ui, Courier, monospace;
+  position: absolute;
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
