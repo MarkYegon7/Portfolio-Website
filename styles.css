@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -478,18 +480,18 @@ ul.description {
   display: flex; 
   align-items: center;
   text-align: center; 
-  font-size: 3.125rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', system-ui, Courier, monospace;
   font-style: normal;
   color: #fff;
   position: absolute;
   margin-top: 4.375rem;
-  padding-left: 2.813;
+  padding-left: 2.813rem;
 }
 
 .application {
-  font-size: 1.563rem;
+  font-size: 20px;
   font-weight: 400;
   font-family: 'Poppins' sans-serif;
   font-style: normal;
@@ -515,7 +517,7 @@ ul.description {
 }
 
 form {
-  margin-top: 20rem;
+  margin-top: 18.75rem;
   display: flex;
   flex-direction: column;
 }
@@ -560,12 +562,12 @@ button {
 }
 
 button:hover {
-  background-color: greenyellow;
+  background-color: rgb(127, 135, 248);
   color: #fff;
 }
 
 button:active {
-  background-color: blue;
+  background-color: rgb(44, 44, 245);
   color: #fff;
 }
 
@@ -590,10 +592,10 @@ button:disabled {
   padding-left: 1.875rem;   
 }
 
-#text::placeholder {
+#textarea::placeholder {
   color:  #B3BAC5;
   font-weight: 400;
-  font-size: 1.188rem;
+  font-size: 0.938rem;
   padding-left: 10px;
 }
 
@@ -604,8 +606,8 @@ hr {
   height: 2px;
   border-radius: 10px;
   align-self: center;
-  margin-bottom: 5px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 textarea {
@@ -613,7 +615,7 @@ textarea {
   border: 1px solid #cfd8dc;
   font-size: 15px;
   padding-top: 10px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   border-radius: 8px;
   width: 327px;
   height: 170px;
