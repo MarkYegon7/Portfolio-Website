@@ -545,13 +545,6 @@ form input {
   border: 1px solid #cfd8dc;
 }
 
-#text {
-  height: 10.625rem;
-  width: 20.438rem;
-  border-radius: 8px;
-  border: 1px solid #cfd8dc;
-}
-
 button {
   margin-top: 1.875rem;
   border-radius: 8px;
