@@ -19,7 +19,7 @@
 
 # 📖 Portfolio Website <a name="about-project"></a>
 
-Portfolio Website is an activity created on the first week to show the knowledge we have grasped
+Portfolio Website is an activity created on the first and second week to show the knowledge we have grasped
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -84,9 +84,7 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] Add forms to the portfolio
 - [ ] Be responsive to larger screens
-- [ ] Add contact page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,8 +121,6 @@ Code reviewers were of great help
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/MarkYegon7/Portfolio-Website/blob/f076725c4417b0a52a301b65a1d5a45661ed7da0/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-=======
-
