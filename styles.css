@@ -33,7 +33,6 @@ body {
 
 .title {
   font-family: 'Poppins', sans-serif;
-  
   font-weight: bold;
   font-size: 3.125rem;
   line-height: 3.25rem;
@@ -47,8 +46,6 @@ body {
 }
 
 .intro {
-  /* width: 20.438rem;
-  height: 10.625rem; */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 6.25rem;
@@ -59,7 +56,6 @@ body {
   order: 1;
   flex-grow: 0;
   margin-bottom: 20px;
-  /* margin-right: 20%; */
 }
 
 .lets-connect {
@@ -632,26 +628,10 @@ textarea::placeholder {
   line-height: 24px;
 }
 
-/* .tonic-1 {
-  display: none;
-} */
-
-/* desktop version */
-/* @media screen and (min-width: 768px) {
-  body {
-    width: 1440px;
-  }
-
-  .all-body{
-    background-image: url('images/Header\ bgDesktop.svg');
-  }
-} */
-
 @media screen and (min-width: 768px) {
   .dsk-header-logo {
     display: flex;
     justify-content: space-between;
-    /* background: #fff; */
     padding-left: 20px;
   }
 
