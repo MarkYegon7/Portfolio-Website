@@ -33,6 +33,7 @@ body {
 
 .title {
   font-family: 'Poppins', sans-serif;
+  
   font-weight: bold;
   font-size: 3.125rem;
   line-height: 3.25rem;
@@ -46,18 +47,19 @@ body {
 }
 
 .intro {
-  width: 20.438rem;
-  height: 10.625rem;
+  /* width: 20.438rem;
+  height: 10.625rem; */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 6.25rem;
-  font-size: 120%;
+  font-size: 16px;
   line-height: 1.5rem;
   color: #344563;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-right: 20%;
+  margin-bottom: 20px;
+  /* margin-right: 20%; */
 }
 
 .lets-connect {
@@ -629,3 +631,67 @@ textarea::placeholder {
   font-size: 15px;
   line-height: 24px;
 }
+
+/* .tonic-1 {
+  display: none;
+} */
+
+/* desktop version */
+/* @media screen and (min-width: 768px) {
+  body {
+    width: 1440px;
+  }
+
+  .all-body{
+    background-image: url('images/Header\ bgDesktop.svg');
+  }
+} */
+
+@media screen and (min-width: 768px) {
+  .dsk-header-logo {
+    display: flex;
+    justify-content: space-between;
+    /* background: #fff; */
+    padding-left: 20px;
+  }
+
+  .nav-content {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .all-body {
+    background-image: url('images/Header\ bgDesktop.svg');
+    overflow: hidden;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tonic {
+    display: none;
+  }
+
+}
+
+
+  
+
+
+
+  
