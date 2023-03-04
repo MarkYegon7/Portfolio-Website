@@ -139,6 +139,11 @@ body {
   display: block;
 }
 
+.tonic:hover {
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
+
 .header-tonic {
   width: 18.438rem;
   height: 3.5rem;
