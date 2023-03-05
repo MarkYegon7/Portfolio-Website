@@ -803,7 +803,8 @@ textarea::placeholder {
   }
 
   .icons-1 {
-    margin-right: 28rem;
+    margin-left: -10rem;
+    margin-right: 2rem;
   }
 
   .application {
