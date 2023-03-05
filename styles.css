@@ -638,6 +638,10 @@ textarea::placeholder {
   display: none;
 }
 
+.dsk-header-logo {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   body {
     max-width: 100%;
@@ -653,8 +657,7 @@ textarea::placeholder {
 
   #body-cover {
     background-image: url('images/Header\ bgDesktop.svg');
-    background-size: cover;
-    padding-bottom: 21rem;
+    padding-bottom: 10rem;
     border-left: 2rem solid white;
     min-height: 30rem;
     border-bottom: 6rem solid white;
@@ -772,12 +775,14 @@ textarea::placeholder {
   .contact-form {
     background-image: url('images/contact\ form\ background\ shapesdesktop.svg');
     padding: 20px;
+    background-position: 32% 43%;
   }
 
   .form-1 {
-    padding-left: 320px;
-    margin-left: 389px;
-    margin-top: 142px;
+    padding-left: 241px;
+    margin-left: 379px;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
   }
 
   #name {
@@ -805,11 +810,19 @@ textarea::placeholder {
     width: 28.438rem;
   }
 
-  button {
-    margin-left: 10rem;
-  }
-
   .hr {
     display: none;
+  }
+
+  #frame-1 {
+    background-position: 40rem;
+  }
+
+  #skill-1 {
+    background-position: 40rem;
+  }
+
+  .button3 {
+    margin-left: 10rem;
   }
 }
