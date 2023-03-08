@@ -766,7 +766,6 @@ textarea::placeholder {
   ul.description {
     display: flex;
     align-items: center;
-    /* justify-content: normal; */
     margin-left: 2%;
     margin-right: 150px;
     gap: 1rem;
