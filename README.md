@@ -75,7 +75,14 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 👤 **Mark Yegon**
 
 - GitHub: MarkYegon7 (https://github.com/MarkYegon7)
-- Twitter: Marksambai
+
+👤 **Glauber Bannwart **
+
+- GitHub: cancelei (https://github.com/cancelei)
+
+👤 **Adeyemi Olusola **
+
+- GitHub: @Emarkees (https://github.com/Emarkees)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
