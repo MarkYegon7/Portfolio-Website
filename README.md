@@ -100,7 +100,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project feel free to give feedback email:markyegonk@gmail.com
+If you like this project feel free to give me feedback email:markyegonk@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
