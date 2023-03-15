@@ -35,6 +35,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Gri
     <li>Flexbox</li>
     <li>Figma</li>
     <li>CSS Grid</li>
+    <li>javaScript</li>
   </ul>
 </details>
 
@@ -70,21 +71,23 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Mark Yegon**
 
 - GitHub: MarkYegon7 (https://github.com/MarkYegon7)
 - Twitter: Marksambai
+
+👤 **Hernán Güemes**
+
+- GitHub: HFG43 (https://github.com/HFG43)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+- [ ] Be able to add a video section
 
-- [ ] Be responsive to larger screens
+- [ ] Add a payment option link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

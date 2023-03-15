@@ -5,21 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Portfolio Website</title>
 </head>
 <body >
     <nav class="header-logo">
         <a href="#"><img src="images/My Logo.svg" alt="" class="logo"></a>
-        <img src="images/Enabled.png" alt="" class="image-icon"></nav>
-         
+        <img src="images/Enabled.png" alt="" class="image-icon">
+         <div class="name-1">
+            <!-- <div id="close_button">x</div> -->
+            <img src="images/Closing-cross.png" alt="" id="close_button">
+            <!-- <div><i class="fa-solid fa-xmark"></i></div> -->
+            <ul class="mobile-Menu-list">
+              <li><a href="#works-container">Portfolio</a></li>
+              <li><a href="#about-myself">About</a></li>
+              <li><a href="#contact-form">Contact</a></li>
+              <div><hr class="hr2"></div>
+            </ul>
+            
+        </div>
     </nav>
 
     <nav class="dsk-header-logo">
         <a href="#"><img src="images/My Logo.svg" alt="" class="logo-2"></a>
         <ul class="nav-content">
-            <li><img src="images/Portoflio.svg" alt=""></li>
-            <li><img src="images/About.svg" alt=""></li>
-            <li><img src="images/Contact.svg" alt=""></li>
+          <li><a>Portfolio</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
         </ul>
     </nav>
 
@@ -47,7 +59,7 @@
         </div>
     </section>
         
-    <section class="works-container">
+    <section class="works-container" id="works-container">
         <div class="works">
             <img src="images/Snapshoot Portfolio.svg" alt="" class="tonic">
             <img src="images/Snapshoot Portfolio1.svg" alt="" class="tonic-1">
@@ -161,7 +173,7 @@
         </div>
     </section>
 
-    <section class="about-myself">
+    <section class="about-myself" id="about-myself">
         <div class="myself">
             <div>
                 <h1 class="about">About Myself</h1>
@@ -217,7 +229,7 @@
         </div>
     </section>
 
-    <section class="contact-form">
+    <section class="contact-form" id="contact-form">
         <div class="form-1">
 
             <h1 class="Contact">Contact me</h1>
@@ -234,7 +246,7 @@
             <hr class="hr">
         </div>
     </section>
-
+    <script src="script.js"></script>
 </body>
 </html>
 
