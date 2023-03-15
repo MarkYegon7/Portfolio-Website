@@ -71,8 +71,6 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Mark Yegon**
 
 - GitHub: MarkYegon7 (https://github.com/MarkYegon7)
@@ -86,8 +84,6 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] Be able to add a video section
 
