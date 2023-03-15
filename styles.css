@@ -672,7 +672,7 @@ textarea::placeholder {
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(12px);
   width: 100%;
-  height: 718px;
+  height: 100vh;
   mix-blend-mode: multiply;
 }
 
@@ -686,6 +686,18 @@ textarea::placeholder {
   left: 298px;
   height: 35px;
   width: 35px;
+}
+
+.hr2 {
+  border: 1px solid #0d151e;
+  background-color: #0d151e;
+  width: 134px;
+  height: 2px;
+  border-radius: 10px;
+  align-self: center;
+  position: fixed;
+  top: 93%;
+  left: 35%;
 }
 
 @media screen and (min-width: 768px) {
