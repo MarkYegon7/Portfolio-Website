@@ -78,6 +78,10 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 - GitHub: MarkYegon7 (https://github.com/MarkYegon7)
 - Twitter: Marksambai
 
+👤 **Hernán Güemes**
+
+- GitHub: HFG43 (https://github.com/HFG43)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -85,7 +89,9 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Portfolio
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] Be responsive to larger screens
+- [ ] Be able to add a video section
+
+- [ ] Add a payment option link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
