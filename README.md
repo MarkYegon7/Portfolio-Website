@@ -35,6 +35,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Gri
     <li>Flexbox</li>
     <li>Figma</li>
     <li>CSS Grid</li>
+    <li>javaScript</li>
   </ul>
 </details>
 
