@@ -643,35 +643,32 @@ textarea::placeholder {
 }
 
 .mobile-Menu-list {
-  display: none;
-  color: black;
-  font-family: 'Poppins';
+  color: #fff;
+  font-family: 'Poppins', system-ui, Courier, monospace;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 74px;
-  padding: 76px 96px 618px 28px;
-  list-style-type: none;
-  /* background-color: #6070FF;
-  mix-blend-mode: multiply;
-  position: absolute; */
-} 
+  line-height: 68px;
+  list-style: none;
+  margin-right: 195px;
+  margin-top: 56px;
+}
 
-/* .mobile-Menu-list li {
-  padding-left: 28px;
-  background-color: #6070FF;
-} */
+.mobile-Menu-list li a {
+  text-decoration: none;
+  color: #fff;
+}
 
-.name {
+.name-1 {
   z-index: 1;
-  display: none; 
+  display: none;
   align-content: center;
   flex-direction: row;
   justify-content: space-around;
-  position: absolute;
+  position: fixed;
   top: 0;
   list-style: none;
-  background: #6070FF;
+  background: #6070ff;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(12px);
   width: 100%;
@@ -679,22 +676,16 @@ textarea::placeholder {
   mix-blend-mode: multiply;
 }
 
-/* MOBILE MENU*/
-
-.hambDisplay {
-  display: contents;
-}
-
-.manuDesktopDisplay {
-  display:contents;
-}
-
-.mobile-Menu-list-display {
-  display: contents;
-}
-
-.imageBackGround {
-  display: contents;
+#close_button {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 100;
+  display: flex;
+  position: fixed;
+  top: 36px;
+  left: 298px;
+  height: 35px;
+  width: 35px;
 }
 
 @media screen and (min-width: 768px) {
@@ -709,7 +700,7 @@ textarea::placeholder {
   .mobile-Menu-list {
     display: none;
   }
-  
+
   .dsk-header-logo {
     display: flex;
     justify-content: space-between;
