@@ -209,7 +209,7 @@ ul.description {
 }
 
 .more-info {
-  width: 18.438rem;
+  width: 85%;
   margin-bottom: 15px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -220,7 +220,8 @@ ul.description {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 1rem;
+  padding-left: 1rem;
+  display: flex;
 }
 
 .languages {
