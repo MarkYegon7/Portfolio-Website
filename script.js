@@ -76,122 +76,49 @@ const worksArray = [
     },
   ];
 
-const worksLoadHandler = () => {
-    const works = document.getElementsByClassName('works')
-}
+// const worksLoadHandler = () => {
+//     const works = document.getElementsByClassName('works')
+// }
 
- 
+
+//     seeProject.forEach((id)=> {
+//       item.addEventListener('click',()=>{
+//         mobileCard.innerHTML = html
+//       })
+//     }) 
+
+
 for (let i = 0; i < worksArray.length; i += 1) {
-  const card = ` 
+const mobileCard = docucument.createElement('div');
+const card =`
 <div class="works">
-            <img src={$worksArray[i].urlMobile} alt="" class="tonic">
-              <div class="div1">
-                <h1 class="header-tonic">{$worksArray[i].title}</h1>
+<img src="images/Snapshoot Portfolio.svg" alt="" class="tonic">
+    <div class="div1">
+                <h1 class="header-tonic">${worksArray[i].title}</h1>
                 <ul class="description">
-                    <li class="canopy">{$worksArray[i].expierences[0]}</li>
+                    <li class="canopy">${worksArray[i].experiences[0]}</li>
                     <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                    <li class="back">{$worksArray[i].expierences[1]}</li>
+                    <li class="back">${worksArray[i].experiences[1]}</li>
                     <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                    <li class="back">{$worksArray[i].expierences[2]}</li>
+                    <li class="back">${worksArray[i].experiences[2]}</li>
                 </ul>
-                <p class="more-info">{$worksArray[i].description}
+                <p class="more-info">${worksArray[i].description}
                 </p>
+
                 <ul class="languages">
                     <li><button class="lang" id="lan-1">html</button></li>
                     <li><button class="lang" id="lan-2">css</button></li>
                     <li><button class="lang" id="lan-3">javaScript</li></button></li>
                 </ul>
-                <button class="see" id="see-1">{$worksArray[i].live}</button>
-                <button class="see" id="see-1">{$worksArray[i].source}</button>
-            </div>   
-        </div>
-`;
+
+                <button class="see" id="see-1">${worksArray[i].live}</button>
+                <button class="see" id="see-1">${worksArray[i].source}</button>
+
+            </div> 
+</div>
+        `;
+mobileCard.innerHTML =+ card;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
