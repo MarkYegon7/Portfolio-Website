@@ -80,7 +80,9 @@ const worksLoadHandler = () => {
     const works = document.getElementsByClassName('works')
 }
 
- /*MOBILE POP UP */
+ 
+for (let i = 0; i < worksArray.length; i += 1) {
+  const card = ` 
 <div class="works">
             <img src={$worksArray[i].urlMobile} alt="" class="tonic">
               <div class="div1">
@@ -103,7 +105,8 @@ const worksLoadHandler = () => {
                 <button class="see" id="see-1">{$worksArray[i].source}</button>
             </div>   
         </div>
-
+`;
+}
 
 
 
