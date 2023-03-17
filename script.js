@@ -15,199 +15,348 @@ hamburgerMenu.addEventListener('click', clickOn);
 clickButton.addEventListener('click', closeMenu);
 navigationNav.forEach((each) => each.addEventListener('click', closeMenu));
 
-const seeProject = document.querySelectorAll('.see');
-const popWindow = document.querySelector('.works');
-const popClose = document.querySelector('#close_button')
 
-const html = `
-<section class="works-container" id="works-container">
-        <div class="works">
-            <h1 class="header-tonic">Tonic</h1>
-            <img src="images/Closing-cross.png" alt="" id="close_button">
-            <ul class="description">
-                <li class="canopy">CANOPY</li>
-                <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                <li class="back">Back End Dev</li>
-                <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                <li class="back">2015</li>
-            </ul>
 
-            <img src="images/Snapshoot Portfolio.svg" alt="" class="tonic">
-            <img src="images/Snapshoot Portfolio1.svg" alt="" class="tonic-1">
-            // <div class="div1">
+const worksArray = [
+    {
+      id: 0,
+      title: 'Tonic',
+      experiences: ['Canopy', 'Back End Dev', '2015'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+      urlMobile: 'images/Snapshoot Portfolio.svg',
+      urlDesktop: 'images/Snapshoot Portfolio1.svg',
+      urlModal: 'images/Snapshoot Portfolio1.svg',
+      alt: '',
+      live: 'https://markyegon7.github.io/Portfolio-Website/',
+      source: 'https://github.com/MarkYegon7',
+    },
+    {
+      id: 1,
+      title: 'Multi-Post Stories',
+      experiences: ['Canopy', 'Back End Dev', '2015'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+      urlMobile: 'images/Snapshoot Portfolio (1).svg',
+      urlDesktop: 'images/Snapshoot Portfolio2.svg',
+      urlModal: 'images/Snapshoot Portfolio1.svg',
+      alt: '',
+      live: 'https://markyegon7.github.io/Portfolio-Website/',
+      source: 'https://github.com/MarkYegon7',
+    },
+    {
+      id: 2,
+      title: 'Tonic',
+      experiences: ['Canopy', 'Back End Dev', '2015'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+      urlMobile: 'images/Snapshoot Portfolio (2).svg',
+      urlDesktop: 'images/Snapshoot Portfolio3.svg',
+      urlModal: 'images/Snapshoot Portfolio1.svg',
+      alt: '',
+      live: 'https://markyegon7.github.io/Portfolio-Website/',
+      source: 'https://github.com/MarkYegon7',
+    },
+    {
+      id: 3,
+      title: 'Multi-Post Stories',
+      experiences: ['Canopy', 'Back End Dev', '2015'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+      urlMobile: 'images/Snapshoot Portfolio (3).svg',
+      urlDesktop: 'images/Snapshoot Portfolio4.svg',
+      urlModal: 'images/Snapshoot Portfolio1.svg',
+      alt: '',
+      live: 'https://markyegon7.github.io/Portfolio-Website/',
+      source: 'https://github.com/MarkYegon7',
+    },
+  ];
+
+const worksLoadHandler = () => {
+    const works = document.getElementsByClassName('works')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const seeProject = document.querySelectorAll('.see');
+// const popWindow = document.querySelector('.works','works works2');
+// const popClose = document.querySelector('#close_button')
+
+// const html = `
+// <section class="works-container" id="works-container">
+//         <div class="works">
+//             <h1 class="header-tonic">Tonic</h1>
+//             <img src="images/Closing-cross.png" alt="" id="close_button">
+//             <ul class="description">
+//                 <li class="canopy">CANOPY</li>
+//                 <li><img src="images/Counter.svg" alt="" id="counter"></li>
+//                 <li class="back">Back End Dev</li>
+//                 <li><img src="images/Counter.svg" alt="" id="counter"></li>
+//                 <li class="back">2015</li>
+//             </ul>
+
+//             <img src="images/Snapshoot Portfolio.svg" alt="" class="tonic">
+//             <img src="images/Snapshoot Portfolio1.svg" alt="" class="tonic-1">
+//             // <div class="div1">
               
 
-                <p class="more-info">A daily selection of privately 
-                    personalized reads; no accounts or sign-ups required.
-                </p>
+//                 <p class="more-info">A daily selection of privately 
+//                     personalized reads; no accounts or sign-ups required.
+//                 </p>
 
-                <ul class="languages">
-                    <li><button class="lang" id="lan-1">html</button></li>
-                    <li><button class="lang" id="lan-2">css</button></li>
-                    <li><button class="lang" id="lan-3">javaScript</li></button></li>
-                </ul>
-
-                <button class="see" id="see-1">See Project</button>
-
-                <div class="see-live_source">
-                    <a href="https://markyegon7.github.io/Portfolio-Website/" class="see-live">
-                        <button><h3>See live</h3></button>
-                    </a>
-                    <a href="https://github.com/MarkYegon7/Portfolio-Website/tree/main" class="see-live">
-                        <button><h3>See source</h3></button>
-                    </a>
-                </div>
-            // </div>   
-        </div>
-
-        <div class="works works2">
-            <h1 class="stories">Multi-Post Stories</h1>
-
-            <ul class="description">
-                <li class="canopy">CANOPY</li>
-                <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                <li class="back">Back End Dev</li>
-                <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                <li class="back">2015</li>
-            </ul>
-
-            <img src="images/Snapshoot Portfolio (1).svg" alt="" class="tonic">
-            <img src="images/Snapshoot Portfolio2.svg" alt="" class="tonic-1">
-            <div>
-                <p class="more-info">A daily selection of privately 
-                    personalized reads; no accounts or sign-ups required.
-                </p>
-
-                <ul class="languages">
-                    <li><button class="lang" id="lan-1">html</button></li>
-                    <li><button class="lang" id="lan-2">css</button></li>
-                    <li><button class="lang" id="lan-3">javaScript</li></button></li>
-                </ul>
-
-                <div class="see-live_source">
-                    <a href="https://markyegon7.github.io/Portfolio-Website/" class="see-live">
-                        <button><h3>See live</h3></button>
-                    </a>
-                    <a href="https://github.com/MarkYegon7/Portfolio-Website/tree/main" class="see-live">
-                        <button><h3>See source</h3></button>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="works">
-            <h1 class="header-tonic">Tonic</h1>
-
-            <ul class="description">
-                <li class="canopy">CANOPY</li>
-                <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                <li class="back">Back End Dev</li>
-                <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                <li class="back">2015</li>
-            </ul>
-
-            <img src="images/Snapshoot Portfolio (2).svg" alt="" class="tonic">
-            <img src="images/Snapshoot Portfolio3.svg" alt="" class="tonic-1">
-            <div>
-                <p class="more-info">A daily selection of privately 
-                    personalized reads; no accounts or sign-ups required.
-                </p>
-
-                <ul class="languages">
-                    <li><button class="lang" id="lan-1">html</button></li>
-                    <li><button class="lang" id="lan-2">css</button></li>
-                    <li><button class="lang" id="lan-3">javaScript</li></button></li>
-                </ul>
-
-                <div class="see-live_source">
-                    <a href="https://markyegon7.github.io/Portfolio-Website/" class="see-live">
-                        <button><h3>See live</h3></button>
-                    </a>
-                    <a href="https://github.com/MarkYegon7/Portfolio-Website/tree/main" class="see-live">
-                        <button><h3>See source</h3></button>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="works works2">
-            <h1 class="stories">Multi-Post Stories</h1>
+//                 <ul class="languages">
+//                     <li><button class="lang" id="lan-1">html</button></li>
+//                     <li><button class="lang" id="lan-2">css</button></li>
+//                     <li><button class="lang" id="lan-3">javaScript</li></button></li>
+//                 </ul>
 
 
-            <ul class="description">
-                <li class="canopy">CANOPY</li>
-                <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                <li class="back">Back End Dev</li>
-                <li><img src="images/Counter.svg" alt="" id="counter"></li>
-                <li class="back">2015</li>
-            </ul>
+//                 <div class="see-live_source">
+//                     <a href="https://markyegon7.github.io/Portfolio-Website/" class="see-live">
+//                         <button><h3>See live</h3></button>
+//                     </a>
+//                     <a href="https://github.com/MarkYegon7/Portfolio-Website/tree/main" class="see-live">
+//                         <button><h3>See source</h3></button>
+//                     </a>
+//                 </div>
+//             // </div>   
+//         </div>
 
-            <img src="images/Snapshoot Portfolio (3).svg" alt="" class="tonic">
-            <img src="images/Snapshoot Portfolio4.svg" alt="" class="tonic-1">
-            <div>
-                <p class="more-info">A daily selection of privately 
-                    personalized reads; no accounts or sign-ups required.
-                </p>
+//         <div class="works works2">
+//             <h1 class="stories">Multi-Post Stories</h1>
 
-                <ul class="languages">
-                    <li><button class="lang" id="lan-1">html</button></li>
-                    <li><button class="lang" id="lan-2">css</button></li>
-                    <li><button class="lang" id="lan-3">javaScript</li></button></li>
-                </ul>
+//             <ul class="description">
+//                 <li class="canopy">CANOPY</li>
+//                 <li><img src="images/Counter.svg" alt="" id="counter"></li>
+//                 <li class="back">Back End Dev</li>
+//                 <li><img src="images/Counter.svg" alt="" id="counter"></li>
+//                 <li class="back">2015</li>
+//             </ul>
 
-                <div class="see-live_source">
-                    <a href="https://markyegon7.github.io/Portfolio-Website/" class="see-live">
-                        <button><h3>See live</h3></button>
-                    </a>
-                    <a href="https://github.com/MarkYegon7/Portfolio-Website/tree/main" class="see-live">
-                        <button><h3>See source</h3></button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>`;
+//             <img src="images/Snapshoot Portfolio (1).svg" alt="" class="tonic">
+//             <img src="images/Snapshoot Portfolio2.svg" alt="" class="tonic-1">
+//             <div>
+//                 <p class="more-info">A daily selection of privately 
+//                     personalized reads; no accounts or sign-ups required.
+//                 </p>
+
+//                 <ul class="languages">
+//                     <li><button class="lang" id="lan-1">html</button></li>
+//                     <li><button class="lang" id="lan-2">css</button></li>
+//                     <li><button class="lang" id="lan-3">javaScript</li></button></li>
+//                 </ul>
+
+//                 <div class="see-live_source">
+//                     <a href="https://markyegon7.github.io/Portfolio-Website/" class="see-live">
+//                         <button><h3>See live</h3></button>
+//                     </a>
+//                     <a href="https://github.com/MarkYegon7/Portfolio-Website/tree/main" class="see-live">
+//                         <button><h3>See source</h3></button>
+//                     </a>
+//                 </div>
+//             </div>
+//         </div>
+
+//         <div class="works">
+//             <h1 class="header-tonic">Tonic</h1>
+
+//             <ul class="description">
+//                 <li class="canopy">CANOPY</li>
+//                 <li><img src="images/Counter.svg" alt="" id="counter"></li>
+//                 <li class="back">Back End Dev</li>
+//                 <li><img src="images/Counter.svg" alt="" id="counter"></li>
+//                 <li class="back">2015</li>
+//             </ul>
+
+//             <img src="images/Snapshoot Portfolio (2).svg" alt="" class="tonic">
+//             <img src="images/Snapshoot Portfolio3.svg" alt="" class="tonic-1">
+//             <div>
+//                 <p class="more-info">A daily selection of privately 
+//                     personalized reads; no accounts or sign-ups required.
+//                 </p>
+
+//                 <ul class="languages">
+//                     <li><button class="lang" id="lan-1">html</button></li>
+//                     <li><button class="lang" id="lan-2">css</button></li>
+//                     <li><button class="lang" id="lan-3">javaScript</li></button></li>
+//                 </ul>
+
+//                 <div class="see-live_source">
+//                     <a href="https://markyegon7.github.io/Portfolio-Website/" class="see-live">
+//                         <button><h3>See live</h3></button>
+//                     </a>
+//                     <a href="https://github.com/MarkYegon7/Portfolio-Website/tree/main" class="see-live">
+//                         <button><h3>See source</h3></button>
+//                     </a>
+//                 </div>
+//             </div>
+//         </div>
+
+//         <div class="works works2">
+//             <h1 class="stories">Multi-Post Stories</h1>
+
+
+//             <ul class="description">
+//                 <li class="canopy">CANOPY</li>
+//                 <li><img src="images/Counter.svg" alt="" id="counter"></li>
+//                 <li class="back">Back End Dev</li>
+//                 <li><img src="images/Counter.svg" alt="" id="counter"></li>
+//                 <li class="back">2015</li>
+//             </ul>
+
+//             <img src="images/Snapshoot Portfolio (3).svg" alt="" class="tonic">
+//             <img src="images/Snapshoot Portfolio4.svg" alt="" class="tonic-1">
+//             <div>
+//                 <p class="more-info">A daily selection of privately 
+//                     personalized reads; no accounts or sign-ups required.
+//                 </p>
+
+//                 <ul class="languages">
+//                     <li><button class="lang" id="lan-1">html</button></li>
+//                     <li><button class="lang" id="lan-2">css</button></li>
+//                     <li><button class="lang" id="lan-3">javaScript</li></button></li>
+//                 </ul>
+
+//                 <div class="see-live_source">
+//                     <a href="https://markyegon7.github.io/Portfolio-Website/" class="see-live">
+//                         <button><h3>See live</h3></button>
+//                     </a>
+//                     <a href="https://github.com/MarkYegon7/Portfolio-Website/tree/main" class="see-live">
+//                         <button><h3>See source</h3></button>
+//                     </a>
+//                 </div>
+//             </div>
+//         </div>
+//     </section>`;
 
 
 
-    seeProject.forEach((item)=> {
-      item.addEventListener('click',()=>{
-        popWindow.innerHTML = html
-      })
-    }) 
+//     seeProject.forEach((item)=> {
+//       item.addEventListener('click',()=>{
+//         popWindow.innerHTML = html
+//       })
+//     }) 
 
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    //  seeProject[i].addEventListener('click', () => {
-    // see.innerHTML = html;
-    //  console.log("clickedk")
+//  seeProject[i].addEventListener('click', () => {
+// see.innerHTML = html;
+//  console.log("clickedk")
 //    })
 //  }
 
