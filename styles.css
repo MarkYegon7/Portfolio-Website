@@ -678,11 +678,13 @@ textarea::placeholder {
 }
 
 #close_button {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   font-size: 2rem;
   font-weight: 100;
   display: flex;
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   top: 36px;
   left: 298px;
   height: 35px;
